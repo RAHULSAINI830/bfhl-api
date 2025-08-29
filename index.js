@@ -5,14 +5,14 @@ const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-// --- Personal Details (Replace with your own) ---
+
 const userDetails = {
-    full_name: "John Doe", // Replace with your full name
-    dob: "17091999",       // Replace with your date of birth in DDMMYYYY format
-    email: "john@xyz.com",   // Replace with your email
-    roll_number: "ABCD123" // Replace with your roll number
+    full_name: "John Doe", 
+    dob: "17091999",       
+    email: "john@xyz.com",  
+    roll_number: "ABCD123" 
 };
-// ----------------------------------------------------
+
 
 app.post('/bfhl', (req, res) => {
     try {
